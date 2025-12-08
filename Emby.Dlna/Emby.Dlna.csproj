@@ -173,14 +173,29 @@
     <EmbeddedResource Include="Profiles\Xml\Xbox One.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="MediaBrowser.Common, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MediaBrowser.Common.3.5.0\lib\netstandard2.0\MediaBrowser.Common.dll</HintPath>
+    <Reference Include="Emby.Media.Model, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Common.4.9.1.90\lib\netstandard2.0\Emby.Media.Model.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MediaBrowser.Controller, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MediaBrowser.Server.Core.3.5.0\lib\netstandard2.0\MediaBrowser.Controller.dll</HintPath>
+    <Reference Include="Emby.Naming, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Server.Core.4.9.1.90\lib\netstandard2.0\Emby.Naming.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="MediaBrowser.Model, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MediaBrowser.Common.3.5.0\lib\netstandard2.0\MediaBrowser.Model.dll</HintPath>
+    <Reference Include="Emby.Web.GenericEdit, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Common.4.9.1.90\lib\netstandard2.0\Emby.Web.GenericEdit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MediaBrowser.Common, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Common.4.9.1.90\lib\netstandard2.0\MediaBrowser.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MediaBrowser.Controller, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Server.Core.4.9.1.90\lib\netstandard2.0\MediaBrowser.Controller.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MediaBrowser.Model, Version=4.9.1.90, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MediaBrowser.Common.4.9.1.90\lib\netstandard2.0\MediaBrowser.Model.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
